@@ -12,32 +12,32 @@
     <title>Training</title>
   </head>
 <body class="bg-dark container" >
-	<form class="bg-light form-register col-md-5 col-sm-8" action="login.php" method="GET">
+	<form class="bg-light form-register col-md-5 col-sm-8" action="login.php" method="post">
 			<!--<h1 class="text-center py-3">SIGN UP</h1>
       <hr/>-->
       <div class="m-2">
         <label for="full-name">Full name</label>
-        <input type="text" id="full-name" class="form-control" placeholder="Your full name"/>
+        <input type="text" id="full-name" class="form-control" placeholder="Your full name" name="name"/>
         <div class="invalid-feedback">This is required</div>
       </div>
       <div class="m-2">
         <label for="email">Email</label>
-        <input type="text" id="email" class="form-control" placeholder="you@example.com"/>
+        <input type="text" id="email" class="form-control" placeholder="you@example.com" name="email"/>
         <div class="invalid-feedback">This is required</div>
       </div>
       <div class="m-2">
         <label for="age">Age</label>
-        <input type="text" id="age" class="form-control" placeholder="Your age"/>
+        <input type="text" id="age" class="form-control" placeholder="Your age" name="age"/>
         <div class="invalid-feedback">This is required</div>
       </div>
       <div class="m-2">
         <label for="">Username</label>
-        <input type="text" id="username" class="form-control" placeholder="Pick a username"/>
+        <input type="text" id="username" class="form-control" placeholder="Pick a username" name="usrname"/>
         <div class="invalid-feedback">This is required</div>
       </div>
       <div class="m-2">
         <label for="pass">Password</label>
-        <input type="password" id="pass" class="form-control" placeholder="Create a password"/>
+        <input type="password" id="pass" class="form-control" placeholder="Create a password" name="pass"/>
         <div class="invalid-feedback">This is required</div>
         <small class="text-muted">Make sure it's more than 15 characters OR at least 8 characters.</small>
       </div>
